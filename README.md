@@ -8,7 +8,7 @@ Tot slot zal de applicatie de functionaliteit hebben om al de data te exporteren
 De applicatie bestaat uit twee delen: een class library, genaamd GameClubClassLibrary, en een WPF project, genaamd GameClubWPF, met twee vensters.
 
 ## 1. Class Library
-In de Game Club toepassing maken we gebruik van een class library. De class library, genaamd GameClubClassLibrary, gebruiken we om de data van de videogames, boardgames en gebruikers te beheren en op te slaan.
+In de Game Club toepassing maken we gebruik van een class library. De class library, genaamd GameClub.ClassLib, gebruiken we om de data van de videogames, boardgames en gebruikers te beheren en op te slaan.
 
 In de class library zitten twee folders: één folder genaamd DataAccess en één folder genaamd Entities.
 
@@ -83,7 +83,7 @@ De klassen diagram van de class library ziet er als volgt uit:
 ![Static classes](/media/StaticClasses.png)
 
 ## 2. WPF Vensters
-De applicatie bevat een WPF project, genaamd GameClubWPF, dat bestaat uit twee vensters: een loginvenster (MainWindow), een overzichtsvenster (OverviewWindow).
+De applicatie bevat een WPF project, genaamd GameClub.UI, dat bestaat uit twee vensters: een loginvenster (MainWindow), een overzichtsvenster (OverviewWindow).
 
 ### 2.1 Loginvenster (MainWindow)
 XAML voorwaarden:
